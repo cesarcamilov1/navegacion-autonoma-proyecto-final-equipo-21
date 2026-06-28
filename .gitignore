@@ -1,0 +1,15 @@
+# Caché de herramientas y Python
+.atl/
+__pycache__/
+*.pyc
+
+# Material de referencia de terceros (Codevilla): 94 MB, no es del equipo
+# (incluye un checkpoint pre-entrenado de CARLA de 80 MB). Se excluye del repo.
+recursos-proyecto-final/
+
+# Vista/temporales de Webots (estado por usuario)
+*.wbproj
+*.wbt.orig
+
+# Modelo entrenado (se baja de Colab; se versiona solo si el equipo lo decide)
+controllers/cil_drive/cil_model.keras
