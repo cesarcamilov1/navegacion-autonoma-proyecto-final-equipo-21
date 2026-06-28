@@ -3,6 +3,11 @@
 __pycache__/
 *.pyc
 
+# Entornos virtuales (incluye .venv-tf con TensorFlow + CUDA, ~2 GB)
+.venv/
+.venv-tf/
+.ipynb_checkpoints/
+
 # Material de referencia de terceros (Codevilla): 94 MB, no es del equipo
 # (incluye un checkpoint pre-entrenado de CARLA de 80 MB). Se excluye del repo.
 recursos-proyecto-final/
