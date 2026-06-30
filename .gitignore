@@ -18,3 +18,15 @@ recursos-proyecto-final/
 
 # Modelo entrenado (se baja de Colab; se versiona solo si el equipo lo decide)
 controllers/cil_drive/cil_model.keras
+
+# Backups locales (datasets, notebooks, modelos)
+*.bak
+*.bak.*
+*.prelocal
+
+# Modelos entrenados y su config generada (salen de Colab; no se versionan)
+*.keras
+model_config.json
+
+# Log de entrenamiento del equipo
+train_teammate.log
